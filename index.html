@@ -1,8 +1,101 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+<head>
+      <title>Software Developer Poisons</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="./styles.css" type="text/css" />
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+      <script src="./script.js" defer></script>
+</head>
+<body>
+   <header class="header">
+      <nav class="navigation">
+         <a href="index.html"><img src="./images/logo.png"></a>
+         <div class="nav-links" id="navLinks"> 
+            <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+               <ul>
+                  <li><a href="">HOME</a></li>
+                  <li><a href="#backEndInfo">BACKEND</a></li>
+                  <li><a href="#mainHeading">FRONTEND</a></li>
+                  <li><a href="#fullStackInfo">FULLSTACK</a></li>
+                  <li><a href="#devopsInfo">DEVOPS</a></li>
+               </ul>
+         </div> 
+      </nav>
+         <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+
+<div class="text-box">
+   <div id="home">
+   <h1>Software Developer Paths</h1>
+   <p>The purpose of this website is to provide brief information about <br> some of the different career paths for a Software Developer.</p>
+      <a href="https://www.freecodecamp.org/news/alternative-career-paths/" class="info-area">Visit Free Code Camp For More Information</a>
+   </div>
+</div>
+</header>
+<main>
+
+<!--BackEnd-->
+<article>
+<div id="backEnd">
+   <div class="tittle-text">
+      <h1 id="backEndInfo">BackEnd Information</h1>
+      <p class="funParagrah" id="testP">Web development activities that are done at the back end of programs are referred to as back end development. Back-end development covers server-side web application logic and integration and activities, 
+         like writing APIs,creating libraries, and working with system components instead of frontend development, which focuses on customer facing services and programs. Backend developers build code that allows a 
+         database and an application to communicate with one another. Backend developers take care and maintain the back-end of a website, including databases, servers, and apps, and they control what you don't see.</p>
+      <img src="images/backend.jpg" class="backend" alt="backend">        
+   </div>
+</div>
+
+<!--FrontEnd-->
+<div id="frontEnd">
+   <div class="tittle-word">
+      <h1 id="mainHeading">FrontEnd Information</h1>
+      <p> A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript allow users to access and interact with the site or app. When you visit a website, the design elements you  see were created 
+         by a front-end developer.Contrast this with back-end developers, who work to develop the behind-the-scenes portions of a website or application, like data storage, security, site performance, or other server-side functions.
+         Front-end developers create the user interface (UI) that determines what each part of a site or application does and how it will look. If someone wanted to build a website, for example, they might hire a front-end developer to create the site's layout. 
+         The front-end developer determines where to place images, what the navigation should look like, and how to present the site. Much of their work involves ensuring the appearance and layout of the site or application is easy to navigate and intuitive for the user.</p>
+         <footer> 
+            <figcaption><a href="https://code.likeagirl.io/thoughts-on-becoming-a-self-taught-software-engineer-c8d8e7bde704" class="image-info">Author: Lexi Hanson Front End Image Source</a></figcaption>
+               <img src="images/frontend.png" class="frontend" alt="frontend">   
+         </footer>     
+   </div>
+</div>
+
+<!--FullStack-->
+<div id="fullStack">
+   <div class="tittle-phrase">
+      <h1 id="fullStackInfo">FullStack Information</h1>
+      <p> A full stack developer is a developer or engineer who can tackle projects that involve databases, APIs, build user-facing websites, or even work with clients during the planning phase of projects.More developers are becoming what we call full stack developers. 
+         A lot of employers (especially agencies who work on different kinds of sites) are looking for developers who know how to work on all of the parts of a site, so they can use the best tools for the job regardless — hence the rise in companieslisting full stack development on job requirements.</p>
+      <br> <p>Full stack developer skills:</p>
+            <ul class="a">
+                <li>HTML, CSS, JavaScript, and one or more back end languages.</li>
+                  <li>Specialized in a particular programming language, like Ruby or PHP or Python, although full stack programmers, especially if they have been working 
+                      as a developer for a while, work with more than one. In job listings, you will ll generally see openings for “full stack Ruby developer” or the like.</li>
+               <li>Learned either project management, visual design, web design, or user experience skills — to complete their “stack,” if you will.</li>
+            </ul>
+      <img src="images/fullstack.png" class="fullstack" alt="fullstack">        
+   </div>
+</div>
+
+<!--Devops-->
+<div id="devops">
+   <div class="tittle-sentence">
+      <h1 id="devopsInfo">Devops Information</h1>
+      <p>A DevOps engineer is an IT generalist who should have a wide-ranging knowledge of both development and operations, including coding, infrastructure management, 
+          system administration, and DevOps toolchains. DevOps engineers should also possess interpersonal skills since they work across company silos to create a more collaborative 
+          environment. DevOps engineers need to have a strong understanding of common system architecture, provisioning, and administration, but must also have experience with the traditional
+          developer toolset and practices such as using source control, giving and receiving code reviews, writing unit tests, and familiarity with agile principles. The role of a DevOps engineer will 
+          vary from one organization to another, but invariably entails some combination of release engineering, infrastructure provisioning and management, system administration, security, and DevOps advocacy. </p>
+      <img src="images/devops.png" class="w3-circle" alt="devops">        
+   </div>
+</div>
+</article>
+</main>
+<footer>
+   <p>&copy; Robert Ortiz 2022</p>
+</footer>
+
+</body>
 </html>
